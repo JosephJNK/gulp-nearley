@@ -7,9 +7,9 @@ Gulp plugin for compiling parsers written with the nearley parser library
 const nearley = require('gulp-nearley');
 
 gulp.task('nearley', () =>
-  gulp.src('./src/*.ne')
-    .pipe(nearley())
-    .pipe(gulp.dest('./lib')));
+  gulp.src('src/**/*.ne')
+      .pipe(nearley())
+      .pipe(gulp.dest('lib')));
 ```
 
 Any files with a `.ne` file extension will have their extension changed to `.js` in the output directory.
