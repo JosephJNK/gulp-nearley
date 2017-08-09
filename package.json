@@ -1,0 +1,27 @@
+{
+  "name": "gulp-nearley",
+  "version": "1.0.0",
+  "description": "Compile parsers written with the nearley parser library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Joseph Junker",
+  "keywords": [
+    "gulpplugin",
+    "nearley"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/JosephJNK/gulp-nearley",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "nearley": "^2.10.2",
+    "nearley-loader": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "event-stream": "^3.3.4",
+    "mocha": "^3.5.0",
+    "vinyl": "^2.1.0"
+  }
+}
